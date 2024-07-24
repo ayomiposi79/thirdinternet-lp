@@ -12,6 +12,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import Link from "next/link";
 
 export default function Home() {
   const [slider, setSlider] = useState(true);
@@ -72,15 +73,17 @@ export default function Home() {
               #everyoneisabuilder
             </Badge>
           </div>
-          <Button className="mb-[200px] flex h-auto items-center gap-2 rounded-[100px] bg-[#0E1F38] py-3.5 pl-[27px] pr-[32px] font-spaceGrotesk text-white max-sm:mb-[65px]">
-            <Image
-              alt="down-arrow"
-              src="/down-arrow.svg"
-              width={17}
-              height={16}
-            />
-            Learn more
-          </Button>
+          <Link href="#about">
+            <Button className="mb-[200px] flex h-auto items-center gap-2 rounded-[100px] bg-[#0E1F38] py-3.5 pl-[27px] pr-[32px] font-spaceGrotesk text-white max-sm:mb-[65px]">
+              <Image
+                alt="down-arrow"
+                src="/down-arrow.svg"
+                width={17}
+                height={16}
+              />
+              Learn more
+            </Button>
+          </Link>
           <div className="grid grid-cols-3 items-center gap-[30px] text-[#0E1F38] max-md:grid-cols-2 max-sm:gap-x-[16px] max-sm:gap-y-[28px]">
             <div className="flex items-center gap-3.5">
               <Image
@@ -144,7 +147,10 @@ export default function Home() {
             className="absolute bottom-0 h-[163px] w-[374px] rounded-[50%] bg-[#01BD82] blur-[195px]"
           ></motion.div>
         </section>
-        <section className="container flex flex-col items-center gap-[93px] pb-[100px] pt-[200px] max-sm:gap-[50px] max-sm:pb-[74px] max-sm:pt-[100px]">
+        <section
+          id="about"
+          className="container flex flex-col items-center gap-[93px] pb-[100px] pt-[200px] max-sm:gap-[50px] max-sm:pb-[74px] max-sm:pt-[100px]"
+        >
           <h2 className="text-center font-clashGrotesk text-[48px] leading-[90%] -tracking-[0.04em] text-[#0E1F38] max-sm:text-[32px]">
             We are advocating for <br />{" "}
             <span className="relative">
@@ -569,12 +575,14 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="container grid grid-cols-3 font-clashGrotesk text-[16px] font-medium leading-[20px] -tracking-[0.04em] text-[#0E1F38] max-lg:grid-cols-1 max-lg:gap-[23px] max-lg:text-center">
-          Built Onchain with ☕
+        <div className="container grid grid-cols-3 items-center font-clashGrotesk text-[16px] font-medium leading-[20px] -tracking-[0.04em] text-[#0E1F38] max-lg:grid-cols-1 max-lg:gap-[23px] max-lg:text-center">
+          <span>Built Onchain with ☕</span>
           <Button className="mx-auto rounded-[100px] bg-[#828282] font-clashGrotesk text-[16px] font-medium leading-[20px] -tracking-[0.04em] text-[#FAFAFA] max-lg:-order-1 max-lg:mb-[52px]">
             Give To The Community
           </Button>
-          All Rights Reserved © 2024 Thirdinternet
+          <span className="text-right max-lg:text-center">
+            All Rights Reserved © 2024 Thirdinternet
+          </span>
         </div>
         <div className="container flex items-center justify-center">
           <Image
