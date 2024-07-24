@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Nav />
       <main className="flex flex-col">
-        <section className="container relative flex flex-col items-center pt-[126px] max-sm:pt-[70px]">
+        <section className="container relative flex flex-col items-center pt-[126px] max-xl:overflow-x-clip max-sm:pt-[70px]">
           <div className="mb-[47px] max-sm:mb-[26px]">
             <div className="text-center font-maglony text-[77.3px] font-normal leading-[120%] text-[#0E1F38] max-sm:text-[40px]">
               Bringing the <span className="font-semibold">Next</span>
