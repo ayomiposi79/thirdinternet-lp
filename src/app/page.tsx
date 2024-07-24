@@ -294,7 +294,7 @@ export default function Home() {
                       </span>
                       <Button
                         variant="outline"
-                        className="mr-auto flex items-center gap-2 rounded-full border-transparent bg-[#B0B0B0] font-clashGrotesk text-[15.91px] font-medium -tracking-[0.04em] text-[#0e1f38]"
+                        className="flex w-full items-center gap-2 rounded-full border-transparent bg-[#B0B0B0] font-clashGrotesk text-[15.91px] font-medium -tracking-[0.04em] text-[#0e1f38]"
                       >
                         Visit e-library
                         <Image
