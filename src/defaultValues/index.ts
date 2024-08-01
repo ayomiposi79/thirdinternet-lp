@@ -57,7 +57,7 @@ export const defaultQuestionsRes: QuestionsRes = {
       examyear: "",
     },
   ],
-  subject: "",
+  subjects: "",
   status: "",
   total: "",
 };
