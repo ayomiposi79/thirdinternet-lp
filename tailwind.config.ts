@@ -19,9 +19,17 @@ const config = {
     },
     extend: {
       fontFamily: {
+        outfit: ["var(--outfit)"],
+        sairaStencilOne: ["var(--sairaStencilOne)"],
+        mavenPro: ["var(--mavenPro)"],
         maglony: ["var(--maglony)"],
         clashGrotesk: ["var(--clashGrotesk)"],
         spaceGrotesk: ["var(--spaceGrotesk)"],
+      },
+      boxShadow: {
+        heroCard: "4px 4px 10px rgba(0, 0, 0, 0.12)",
+        testCard: "0px 4px 16px rgba(0, 0, 0, 0.07)",
+        quizCard: "2px 4px 30px #E9EEFD",
       },
       colors: {
         border: "hsl(var(--border))",

@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
-import { Space_Grotesk } from "next/font/google";
+import {
+  Outfit,
+  Space_Grotesk,
+  Maven_Pro,
+  Saira_Stencil_One,
+} from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import PrivyProvider from "@/context/PrivyProvider";
+import DbProvider from "@/context/DbProvider";
+
+const outfit = Outfit({ subsets: ["latin"], variable: "--outfit" });
+const sairaStencilOne = Saira_Stencil_One({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--sairaStencilOne",
+});
+const mavenPro = Maven_Pro({ subsets: ["latin"], variable: "--mavenPro" });
 
 const maglony = localFont({
   src: "../../public/fonts/Maglony.ttf",
@@ -29,9 +44,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} ${maglony.variable} ${clashGrotesk.variable} bg-[#EAEAEA] font-clashGrotesk`}
+        className={`${spaceGrotesk.variable} ${sairaStencilOne.variable} ${mavenPro.variable} ${outfit.variable} ${maglony.variable} ${clashGrotesk.variable} bg-[#EAEAEA] font-clashGrotesk`}
       >
-        {children}
+        <PrivyProvider>
+          <DbProvider>{children}</DbProvider>
+        </PrivyProvider>
       </body>
     </html>
   );

@@ -69,4 +69,28 @@
   body {
     @apply bg-background text-foreground;
   }
+  .border-gradient {
+    position: relative;
+    padding: 1px; /* Adjust as needed for border width */
+    border-radius: 12px; /* Adjust as needed for border radius */
+    background: linear-gradient(
+      107.19deg,
+      rgba(254, 60, 119, 0.6) 0%,
+      rgba(254, 199, 38, 0.6) 46%,
+      rgba(3, 152, 105, 0.6) 100%
+    );
+  }
+
+  .border-gradient::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    border-radius: 12px;
+    margin: 1px;
+    z-index: 1;
+  }
 }
