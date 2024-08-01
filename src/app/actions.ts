@@ -62,6 +62,7 @@ export async function updateScore({
     .from(schema.LeaderBoard)
     .where(eq(schema.LeaderBoard.wallet, wallet))
     .limit(1);
+  revalidatePath("/base-test");
   return data;
 }
 
