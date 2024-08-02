@@ -17,11 +17,13 @@ export default function PrivyProvider({
           theme: "light",
           accentColor: "#676FFF",
           logo: "/logo.svg",
+          showWalletLoginFirst: true,
         },
         // Create embedded wallets for users who don't have a wallet
         embeddedWallets: {
           createOnLogin: "users-without-wallets",
         },
+        loginMethods: ["email", "wallet", "sms"],
       }}
     >
       {children}

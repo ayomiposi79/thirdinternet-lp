@@ -34,7 +34,7 @@ const TestCard = forwardRef<HTMLDivElement, TestCardProps>(
         )}
         onClick={() => {
           if (!authenticated) {
-            login({ loginMethods: ["wallet"] });
+            login();
           }
         }}
       >

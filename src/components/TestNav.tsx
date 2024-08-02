@@ -147,7 +147,7 @@ const TestNav = forwardRef<HTMLDivElement, TestNavProps>(
           <div className="rounded-[34px] bg-white/5 px-[13px] py-[8px]">
             <Button
               onClick={() => {
-                login({ loginMethods: ["wallet"] });
+                login();
               }}
               variant="outline"
               className={`rounded-[30px] border-transparent ${alt ? "bg-[#0E1F38] text-white" : "bg-white text-[#2A2828]"} font-outfit text-[16px] font-normal`}
@@ -165,7 +165,7 @@ const TestNav = forwardRef<HTMLDivElement, TestNavProps>(
             ) : (
               <Button
                 onClick={() => {
-                  login({ loginMethods: ["wallet"] });
+                  login();
                 }}
                 variant="outline"
                 className={`rounded-[30px] border-transparent ${alt ? "bg-[#0E1F38] text-white" : "bg-white text-[#2A2828]"} font-outfit text-[16px] font-normal`}
