@@ -34,7 +34,7 @@ export default function Timer({}: TimerProps) {
   const [isPass, setIsPass] = useState(false);
 
   useEffect(() => {
-    const pass = (userAnswers.score / userAnswers.answers.length) * 100 >= 1;
+    const pass = (userAnswers.score / userAnswers.answers.length) * 100 >= 50;
     setIsPass(pass);
   }, [userAnswers.answers.length, userAnswers.score]);
 
