@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/popover";
 
 import { DbCtx } from "@/context/DbProvider";
+import { useRouter } from "next/navigation";
 
 interface TestNavProps extends HTMLAttributes<HTMLDivElement> {
   alt?: boolean;
@@ -21,6 +22,7 @@ interface TestNavProps extends HTMLAttributes<HTMLDivElement> {
 
 const TestNav = forwardRef<HTMLDivElement, TestNavProps>(
   ({ className, alt = false, ...props }, ref) => {
+    const router = useRouter();
     const [mobileNav, setMobileNav] = useState(false);
     const { dbUser, setDbUser } = useContext(DbCtx);
     const { login } = useLogin({
@@ -34,6 +36,7 @@ const TestNav = forwardRef<HTMLDivElement, TestNavProps>(
     const { logout } = useLogout({
       onSuccess: () => {
         setDbUser(null);
+        router.refresh();
       },
     });
 

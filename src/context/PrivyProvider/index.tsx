@@ -17,7 +17,14 @@ export default function PrivyProvider({
           theme: "light",
           accentColor: "#676FFF",
           logo: "/logo.svg",
-          showWalletLoginFirst: true,
+          showWalletLoginFirst: false,
+          walletList: [
+            "detected_wallets",
+            "metamask",
+            "coinbase_wallet",
+            "rainbow",
+            "wallet_connect",
+          ],
         },
         // Create embedded wallets for users who don't have a wallet
         embeddedWallets: {
