@@ -284,7 +284,7 @@ export default function Home() {
                       WEB3 RESOURCE
                     </span>
                     <span className="mb-[120px] flex font-clashGrotesk text-[31.81px] font-medium leading-[100%] -tracking-[0.04em] text-[0e1f38]">
-                      e-Library by Thirdinternet
+                      OBT by Thirdinternet
                     </span>
                     <div className="mt-auto">
                       <span className="mb-4 flex font-clashGrotesk text-[20px] font-normal -tracking-[0.04em] text-[#515151]">
@@ -298,7 +298,7 @@ export default function Home() {
                               variant="outline"
                               className="flex w-full items-center gap-2 rounded-full border-transparent bg-[#B0B0B0] font-clashGrotesk text-[15.91px] font-medium -tracking-[0.04em] text-[#0e1f38]"
                             >
-                              Visit e-library
+                              Visit OBT
                               <Image
                                 alt="right-arrow-blue"
                                 src="/right-arrow-blue.svg"
@@ -327,7 +327,7 @@ export default function Home() {
               variant="outline"
               className={`rounded-full font-clashGrotesk hover:text-[#0E1F38] ${!slider ? "bg-[#FEC726] text-[#0E1F38] hover:bg-[#FEC726]" : "bg-[#D2D2D2] text-[#5C5C5C] hover:bg-[#FEC726]/20"} text-[16px] font-normal leading-[90%] -tracking-[0.04em]`}
             >
-              e-Library by Thirdinternet
+              OBT by Thirdinternet
             </Button>
           </div>
           <div className="relative max-sm:hidden">
@@ -418,7 +418,7 @@ export default function Home() {
                     WEB3 RESOURCE
                   </span>
                   <span className="flex font-clashGrotesk text-[31.81px] font-medium leading-[100%] -tracking-[0.04em] text-[0e1f38]">
-                    e-Library by Thirdinternet
+                    OBT by Thirdinternet
                   </span>
                   <span className="mb-4 flex font-clashGrotesk text-[20px] font-normal -tracking-[0.04em] text-[#515151]">
                     Creating opportunities for younger generations, <br />
@@ -430,7 +430,7 @@ export default function Home() {
                         variant="outline"
                         className="flex w-full items-center gap-2 rounded-full border-transparent bg-[#B0B0B0] font-clashGrotesk text-[15.91px] font-medium -tracking-[0.04em] text-[#0e1f38]"
                       >
-                        Visit e-library
+                        Visit OBT
                         <Image
                           alt="right-arrow-blue"
                           src="/right-arrow-blue.svg"
