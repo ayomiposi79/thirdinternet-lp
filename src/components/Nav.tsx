@@ -10,7 +10,7 @@ export default function Nav({}: NavProps) {
         href="https://www.thirdinternet.xyz/base-test"
         className="flex items-center text-[16px] font-medium lowercase leading-[120%] tracking-[-0.04em] text-black"
       >
-        Visit e-library
+        Visit OBT
         <Image src="arrow.svg" alt="arrow" width={17} height={17} />
       </Link>
       <Image
