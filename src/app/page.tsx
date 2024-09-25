@@ -472,9 +472,12 @@ export default function Home() {
                     Based-Test (OBT) incl. <br /> Past questions and <br />
                     assessments
                   </p>
-                  <Button className="h-auto rounded-full bg-[#FE3C77] py-2 text-[16px] font-medium leading-[20px] -tracking-[0.06em] text-[#fafafa]">
-                    Take test
-                  </Button>
+                  <a href="https://www.thirdinternet.xyz/base-test" target="_blank" rel="noopener noreferrer">
+  <Button className="h-auto rounded-full bg-[#FE3C77] py-2 text-[16px] font-medium leading-[20px] -tracking-[0.06em] text-[#fafafa]">
+    Take test
+  </Button>
+</a>
+
                 </div>
               </div>
             </motion.div>
