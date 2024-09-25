@@ -293,18 +293,20 @@ export default function Home() {
                         <br />
                         the future of the internet.
                       </span>
-                      <Button
-                        variant="outline"
-                        className="flex w-full items-center gap-2 rounded-full border-transparent bg-[#B0B0B0] font-clashGrotesk text-[15.91px] font-medium -tracking-[0.04em] text-[#0e1f38]"
-                      >
-                        Visit e-library
-                        <Image
-                          alt="right-arrow-blue"
-                          src="/right-arrow-blue.svg"
-                          width={17}
-                          height={17}
-                        />
-                      </Button>
+                      <a href="https://www.thirdinternet.xyz/base-test" target="_blank" rel="noopener noreferrer">
+                            <Button
+                              variant="outline"
+                              className="flex w-full items-center gap-2 rounded-full border-transparent bg-[#B0B0B0] font-clashGrotesk text-[15.91px] font-medium -tracking-[0.04em] text-[#0e1f38]"
+                            >
+                              Visit e-library
+                              <Image
+                                alt="right-arrow-blue"
+                                src="/right-arrow-blue.svg"
+                                width={17}
+                                height={17}
+                              />
+                            </Button>
+                          </a>
                     </div>
                   </CardContent>
                 </Card>
@@ -423,18 +425,20 @@ export default function Home() {
                     supporting their academics, and onboarding them into <br />
                     the future of the internet.
                   </span>
-                  <Button
-                    variant="outline"
-                    className="mr-auto flex items-center gap-2 rounded-full border-transparent bg-[#B0B0B0] font-clashGrotesk text-[15.91px] font-medium -tracking-[0.04em] text-[#0e1f38]"
-                  >
-                    Visit e-library
-                    <Image
-                      alt="right-arrow-blue"
-                      src="/right-arrow-blue.svg"
-                      width={17}
-                      height={17}
-                    />
-                  </Button>
+                  <a href="https://www.thirdinternet.xyz/base-test" target="_blank" rel="noopener noreferrer">
+                      <Button
+                        variant="outline"
+                        className="flex w-full items-center gap-2 rounded-full border-transparent bg-[#B0B0B0] font-clashGrotesk text-[15.91px] font-medium -tracking-[0.04em] text-[#0e1f38]"
+                      >
+                        Visit e-library
+                        <Image
+                          alt="right-arrow-blue"
+                          src="/right-arrow-blue.svg"
+                          width={17}
+                          height={17}
+                        />
+                      </Button>
+                    </a>
                 </div>
                 <div className="mr-auto flex flex-col rounded-[10px] bg-[#FEC726] px-[30px] py-[27px] max-lg:hidden">
                   <div className="mb-4 flex items-center gap-2">
