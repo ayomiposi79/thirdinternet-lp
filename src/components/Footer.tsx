@@ -11,27 +11,33 @@ export default function Footer({}: FooterProps) {
           We strive to help the young generation benefit from building onchain
         </h2>
         <div className="grid grid-cols-3 gap-[56px]">
-          <Image
-            alt="social"
-            src="social.svg"
-            width={69}
-            height={69}
-            className="max-sm:h-[30px] max-sm:w-[30px]"
-          />
-          <Image
-            alt="insta"
-            src="insta.svg"
-            width={67}
-            height={67}
-            className="max-sm:h-[30px] max-sm:w-[30px]"
-          />
-          <Image
-            alt="x"
-            src="x.svg"
-            width={70}
-            height={67}
-            className="max-sm:h-[30px] max-sm:w-[30px]"
-          />
+          <a href="https://warpcast.com/thirdinternet" target="_blank" rel="noopener noreferrer">
+              <Image
+                alt="social"
+                src="social.svg"
+                width={69}
+                height={69}
+                className="max-sm:h-[30px] max-sm:w-[30px]"
+              />
+            </a>
+          <a href="https://www.instagram.com/thethirdinternet?igsh=cmlwM2lvNjZ2Nmtr&utm_source=qr" target="_blank" rel="noopener noreferrer">
+              <Image
+                alt="insta"
+                src="insta.svg"
+                width={67}
+                height={67}
+                className="max-sm:h-[30px] max-sm:w-[30px]"
+              />
+            </a>
+          <a href="https://x.com/3rd_internet_?s=21" target="_blank" rel="noopener noreferrer">
+            <Image
+              alt="x"
+              src="x.svg"
+              width={70}
+              height={67}
+              className="max-sm:h-[30px] max-sm:w-[30px]"
+            />
+          </a>
         </div>
       </div>
       <div className="container grid grid-cols-3 items-center font-clashGrotesk text-[16px] font-medium leading-[20px] -tracking-[0.04em] text-[#0E1F38] max-lg:grid-cols-1 max-lg:gap-[23px] max-lg:text-center">
