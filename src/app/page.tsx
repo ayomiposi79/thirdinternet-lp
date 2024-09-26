@@ -247,18 +247,20 @@ export default function Home() {
                       we aim to bridge the gap between traditional education and
                       the future of the internet.
                     </span>
-                    <Button
-                      variant="outline"
-                      className="mb-4 flex items-center gap-2 rounded-full border-[#576A87] bg-transparent font-clashGrotesk text-[16px] font-medium text-[#fec726]"
-                    >
-                      Visit gallery
-                      <Image
-                        alt="right-arrow"
-                        src="/right-arrow.svg"
-                        width={16}
-                        height={16}
-                      />
-                    </Button>
+                    <a href="https://drive.google.com/drive/u/0/mobile/folders/1hYp1-aqxvQCNUUdbWg8yGz-prv5Lfq5V?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      <Button
+                        variant="outline"
+                        className="mb-4 flex items-center gap-2 rounded-full border-[#576A87] bg-transparent font-clashGrotesk text-[16px] font-medium text-[#fec726]"
+                      >
+                        Visit gallery
+                        <Image
+                          alt="right-arrow"
+                          src="/right-arrow.svg"
+                          width={16}
+                          height={16}
+                        />
+                      </Button>
+                    </a>
                     <span className="flex w-full items-center justify-center gap-1 text-center font-clashGrotesk text-[14px] text-[#92A1B7]">
                       Powered by Trybe
                       <Image
@@ -506,18 +508,20 @@ export default function Home() {
                     the future of the internet.
                   </span>
                   <div className="flex items-center gap-4">
-                    <Button
-                      variant="outline"
-                      className="flex items-center gap-2 rounded-full border-[#576A87] bg-transparent font-clashGrotesk text-[16px] font-medium text-[#fec726]"
-                    >
-                      Visit gallery
-                      <Image
-                        alt="right-arrow"
-                        src="/right-arrow.svg"
-                        width={16}
-                        height={16}
-                      />
-                    </Button>
+                    <a href="https://drive.google.com/drive/u/0/mobile/folders/1hYp1-aqxvQCNUUdbWg8yGz-prv5Lfq5V?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      <Button
+                        variant="outline"
+                        className="flex items-center gap-2 rounded-full border-[#576A87] bg-transparent font-clashGrotesk text-[16px] font-medium text-[#fec726]"
+                      >
+                        Visit gallery
+                        <Image
+                          alt="right-arrow"
+                          src="/right-arrow.svg"
+                          width={16}
+                          height={16}
+                        />
+                      </Button>
+                    </a>
                     <span className="flex items-center gap-1 font-clashGrotesk text-[14px] text-[#92A1B7]">
                       Powered by Trybe
                       <Image

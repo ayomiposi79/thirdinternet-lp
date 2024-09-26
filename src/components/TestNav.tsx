@@ -73,7 +73,7 @@ const TestNav = forwardRef<HTMLDivElement, TestNavProps>(
             />
           )}
         </Button>
-        <Link href="/base-test">
+        <Link href="https://www.thirdinternet.xyz">
           <Image
             alt={alt ? "alt-logo" : "full-logo"}
             src={alt ? "/alt-logo.svg" : "/full-logo.svg"}
